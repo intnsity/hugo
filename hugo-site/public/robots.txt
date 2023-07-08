@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://intnsity.com/sitemap.xml

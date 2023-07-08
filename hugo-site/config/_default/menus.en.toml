@@ -10,6 +10,54 @@
 # overridden by providing a weight value. The menu will then be
 # ordered by weight from lowest to highest.
 
+[[main]]
+  identifier = "authors"
+  name = "Authors"
+  url = "/authors/"
+  weight = 1
+
+[[main]]
+  identifier = "docs"
+  name = "Docs"
+  url = "/docs/"
+  weight = 2
+
+[[main]]
+  identifier = "examples"
+  name = "Examples"
+  url = "/examples/"
+  weight = 3
+
+[[main]]
+  identifier = "guides"
+  name = "Guides"
+  url = "/guides/"
+  weight = 4
+
+[[main]]
+  identifier = "posts"
+  name = "Posts"
+  url = "/posts/"
+  weight = 5
+
+[[main]]
+  identifier = "samples"
+  name = "Samples"
+  url = "/samples/"
+  weight = 6
+
+[[main]]
+  identifier = "tags"
+  name = "Tags"
+  url = "/tags/"
+  weight = 7
+
+[[main]]
+  identifier = "users"
+  name = "Users"
+  url = "/users/"
+  weight = 8
+
 #[[main]]
 #  name = "Blog"
 #  pageRef = "posts"
