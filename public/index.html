@@ -63,14 +63,14 @@
   
   
   
-  <meta property="og:title" content="Welcome to Blowfish! :tada:" />
+  <meta property="og:title" content="Welcome to Intnsity! :tada:" />
 <meta property="og:description" content="This is a demo of the Blowfish theme for Hugo." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://intnsity.com/" /><meta property="og:site_name" content="Intnsity" />
 
 
   <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Welcome to Blowfish! :tada:"/>
+<meta name="twitter:title" content="Welcome to Intnsity! :tada:"/>
 <meta name="twitter:description" content="This is a demo of the Blowfish theme for Hugo."/>
 
   
@@ -120,6 +120,15 @@
   
   
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YR7SKSVKR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4YR7SKSVKR');
+</script>
+
   
   
   <meta name="theme-color"/>
@@ -135,7 +144,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
@@ -487,29 +500,43 @@
 
 
 
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
       
   
   
-    <article
-  class="
-    h-full
-   flex flex-col items-center justify-center text-center"
->
-  <header class="flex flex-col items-center mb-3">
-    
-    <h1 class="text-4xl font-extrabold">
-      Intnsity
-    </h1>
-    
-    <div class="mt-1 text-2xl">
-      
-
-    </div>
-  </header>
-  <section class="prose dark:prose-invert"><p>This is a demo site built entirely using Blowfish. It also contains a complete set of <a href="https://intnsity.com/docs/"  >
+    <article class="max-w-full prose dark:prose-invert">
+    <div class="relative">
+        <div class="absolute inset-x-0 bottom-0 h-1/2 bg-gray-100"></div>
+        <div class="mx-auto max-w-7xl p-0">
+            <div class="relative shadow-xl sm:overflow-hidden rounded-2xl">
+                <div class="absolute inset-0">
+                    
+                    
+                    
+                    
+                </div>
+                <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8 flex flex-col items-center justify-center text-center">
+                    
+                    <h1 class="mb-2 text-4xl font-extrabold text-neutral-200">
+                        Intnsity
+                    </h1>
+                    
+                    <div class="mt-1 mb-10 text-2xl">
+                        
+                    </div>
+                    <section class="prose dark:prose-invert"><p>This is a demo site built entirely using Blowfish. It also contains a complete set of <a href="https://intnsity.com/docs/"  >
     theme documentation</a>. Blowfish is flexible and is great for both static page-based content (like this demo) or a traditional blog with a feed of recent posts.</p>
 <div class="flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900">
   <span class="flex items-center ltr:pr-3 rtl:pl-3 text-primary-400">
@@ -528,7 +555,7 @@
       id="switch-layout-button"
       class="px-4 !text-neutral !no-underline rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
     >
-      Switch layout &orarr;
+      Learn more &orarr;
     </button>
   </span>
 </div>
@@ -536,9 +563,497 @@
     sample pages</a> to get a feel for what Blowfish can do. If you like what you see, check out the project on <a target="_blank" href="https://github.com/nunocoracao/blowfish">Github</a> or read the <a href="https://intnsity.com/docs/installation/"  >
     Installation guide</a> to get started.</p>
 </section>
+                </div>
+            </div>
+        </div>
+    </div>
 </article>
 <section>
+    
+
+
+
+
+
+<h2 class="mt-8 text-2xl font-extrabold mb-10">Recent</h2>
+
+
   
+
+
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/docs/welcome/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+        
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/docs/welcome/featured.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/welcome/">Welcome to Blowfish</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>595 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">3 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/docs/installation/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+        
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/docs/installation/featured.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/installation/">Installation</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>990 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/docs/getting-started/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+        
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/docs/getting-started/featured.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/getting-started/">Getting Started</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>1314 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/docs/configuration/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+        
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/docs/configuration/featured.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/configuration/">Configuration</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>3536 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">17 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/docs/homepage-layout/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+        
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/docs/homepage-layout/featured.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/homepage-layout/">Homepage Layout</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>794 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/docs/front-matter/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative backdrop-blur">
+        
+        <div class="w-full thumbnail_card nozoom" style="background-image:url(/docs/front-matter/featured.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/front-matter/">Front Matter</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span>754 words</span><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  
+
+  
+  
+</div>
+
+
+
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+</section>
+
+
+
+
+
+
+<div class="mt-10 flex justify-center">
+  <a href="/posts">
+    <button
+      class="bg-transparent hover:text-primary-500 prose dark:prose-invert font-semibold hover:text-white py-2 px-4 border border-primary-500 hover:border-transparent rounded">
+      Show More
+    </button>
+  </a>
+</div>
 
 
 </section>
@@ -552,51 +1067,24 @@
     &uarr;
   </a>
 </div>
-    </main><footer id="site-footer" class="py-10 print:hidden">
-  
-  
-    
-  
-  <div class="flex items-center justify-between">
-
-    
-    
-    <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      &copy;
-      2023
-      
-    </p>
-    
-
-    
-    
-    <p class="text-xs text-neutral-500 dark:text-neutral-400">
-      
-      
-      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
-    </p>
-    
-
-  </div>
-  <script>
-    
-    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
-      margin: 24,
-      background: 'rgba(0,0,0,0.5)',
-      scrollOffset: 0,
-    })
-    
-  </script>
-  
-  
-  <script type="text/javascript" src="/js/process.min.d836b489a45bffaed02affef469dc781911093c17ac7e121d202f83b8d70851d11fd2131d16237b2524fb1087234800afa0e42fcf043825ac1846a1916976240.js" integrity="sha512-2Da0iaRb/67QKv/vRp3HgZEQk8F6x&#43;Eh0gL4O41whR0R/SEx0WI3slJPsQhyNIAK&#43;g5C/PBDglrBhGoZFpdiQA=="></script>
-  
-  
-  <a rel="me" href="https://masto.ai/@blowfish"></a>
-  
-</footer><div
+    </main><footer style="margin-top: 60px; padding: 20px; background-color: #333; color: #fff; text-align: center;">
+    <div>
+      <h4>Connect with us</h4>
+      <a href="https://twitter.com/intnsity" target="_blank" style="color: #1DA1F2; margin-right: 10px;">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/intnsity" target="_blank" style="color: #4267B2; margin-right: 10px;">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/intnsity" target="_blank" style="color: #2867B2;">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <div style="margin-top: 20px;">
+      &copy; 2023 Intnsity. All rights reserved.
+    </div>
+</footer>
+  <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
   data-url="https://intnsity.com/"

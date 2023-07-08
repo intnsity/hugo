@@ -122,5 +122,21 @@ Use the menu in the template by editing layouts/partials/header.html:
   {{ end }}
 </nav>
 ```
+### Edit the theme displays
+Different options for the Blowfish theme are here: https://blowfish.page/docs/homepage-layout/
+
+edit the params.toml file to use a different tamplate layout, example:
+```
+homepage.layout "hero"
+homepage.homepageImage
+```
+
+Show recent posts or articles editing the params.toml:
+```
+  showRecent = true
+  showRecentItems = 6
+  showMoreLink = false
+  showMoreLinkDest = "/posts"
+```
 
 ### 

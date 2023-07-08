@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Dummy Second Author on Intnsity</title>
+    <title>secondauthor on Intnsity</title>
     <link>https://intnsity.com/authors/secondauthor/</link>
-    <description>Recent content in Dummy Second Author on Intnsity</description>
+    <description>Recent content in secondauthor on Intnsity</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 12 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://intnsity.com/authors/secondauthor/index.xml" rel="self" type="application/rss+xml" />

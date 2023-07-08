@@ -9,8 +9,8 @@ series: ["Documentation"]
 series_order: 10
 showAuthor: true
 authors:
-  - "nunocoracao"
-showAuthorsBadges : false 
+  - "intnsity"
+showAuthorsBadges : true
 ---
 
 

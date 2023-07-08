@@ -99,6 +99,15 @@
   
   
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4YR7SKSVKR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4YR7SKSVKR');
+</script>
+
   
   
   <meta name="theme-color"/>
@@ -114,7 +123,11 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
     
     <div class="flex flex-1 items-center justify-between">
@@ -466,6 +479,16 @@
 
 
 
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
   
   <div class="relative flex flex-col grow">
     <main id="main-content" class="grow">
@@ -479,51 +502,24 @@
   </div>
 
       
-    </main><footer id="site-footer" class="py-10 print:hidden">
-  
-  
-    
-  
-  <div class="flex items-center justify-between">
-
-    
-    
-    <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      &copy;
-      2023
-      
-    </p>
-    
-
-    
-    
-    <p class="text-xs text-neutral-500 dark:text-neutral-400">
-      
-      
-      Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
-        href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
-    </p>
-    
-
-  </div>
-  <script>
-    
-    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
-      margin: 24,
-      background: 'rgba(0,0,0,0.5)',
-      scrollOffset: 0,
-    })
-    
-  </script>
-  
-  
-  <script type="text/javascript" src="/js/process.min.d836b489a45bffaed02affef469dc781911093c17ac7e121d202f83b8d70851d11fd2131d16237b2524fb1087234800afa0e42fcf043825ac1846a1916976240.js" integrity="sha512-2Da0iaRb/67QKv/vRp3HgZEQk8F6x&#43;Eh0gL4O41whR0R/SEx0WI3slJPsQhyNIAK&#43;g5C/PBDglrBhGoZFpdiQA=="></script>
-  
-  
-  <a rel="me" href="https://masto.ai/@blowfish"></a>
-  
-</footer><div
+    </main><footer style="margin-top: 60px; padding: 20px; background-color: #333; color: #fff; text-align: center;">
+    <div>
+      <h4>Connect with us</h4>
+      <a href="https://twitter.com/intnsity" target="_blank" style="color: #1DA1F2; margin-right: 10px;">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/intnsity" target="_blank" style="color: #4267B2; margin-right: 10px;">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.linkedin.com/company/intnsity" target="_blank" style="color: #2867B2;">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </div>
+    <div style="margin-top: 20px;">
+      &copy; 2023 Intnsity. All rights reserved.
+    </div>
+</footer>
+  <div
   id="search-wrapper"
   class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
   data-url="https://intnsity.com/"
